@@ -24,4 +24,5 @@ for person in people:
     print(f"\t{person['Firstname']}'s favourite food is {person['food']}")
     print(f"\t{person['Firstname']}'s hobby is {person['hobby']}")
 
-    
+# cwe could theoreticle put another for loop and make it like this:
+# for key, value in person.items():

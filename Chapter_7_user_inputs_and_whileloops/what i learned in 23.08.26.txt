@@ -1,0 +1,63 @@
+In Batch 1:
+
+- i started with user input, checking whether input is already in a list (SEE 7_1)
+
+- I also learned to convert input into integer and use the if condition to compare to another integer (SEE 7_2)
+
+- besides i also learned about modulo (%), didn't fully understood it's purpose at first.
+  CORRECTION/EXPLANATION: the modulo operator % returns the REST of a division.
+  Example: 7 % 3 = 1 (because 7 / 3 = 2 rest 1).
+  Most common use: number % 2 == 0 checks if a number is EVEN,
+  number % 10 == 0 checks if a number is a multiple of 10 (SEE 7_3)
+
+
+In Batch 2:
+
+- I started this batch with while loops, learned about a flag (active variable).
+  CORRECTION: a flag is NOT the condition by which the loop stops - it is a variable
+  (usually True/False) that the while loop CHECKS every time before running again.
+  "while active:" means: keep running AS LONG AS active is True.
+  When somewhere in the code active is set to False, the loop stops on its NEXT check.
+  Note: any value can act as a condition - an empty list/dictionary counts as False,
+  a non-empty one counts as True (SEE 7_4)
+
+- Next i also did while loops with numbers and a break statement (SEE 7_5)
+  ADDITION: "while True:" creates an infinite loop on purpose - it runs forever
+  until a break statement stops it (SEE 7_7)
+
+- I also learned to exit a loop if user types "quit" as input, the if condition will
+  pick it up and exit the loop without executing the rest of the code (SEE 7_6)
+  ADDITION: there are TWO ways to control a loop from inside:
+    * break    -> stops the WHOLE loop immediately, code after it in the loop is skipped
+    * continue -> skips only the REST of THIS run (iteration) and jumps back to the top
+                  of the while condition, the loop itself keeps going
+
+
+In Batch 3:
+
+- In this batch i learned about taking info out of an existing list and appending it
+  to another empty list.
+  CORRECTION: this is done with a WHILE LOOP, not a for loop! 
+  Reason: you should NOT add/remove items in a list while a for loop is iterating
+  over it - python then loses track of which items it already handled.
+  A while loop keeps running until the list is empty, so nothing gets skipped (SEE 7_8)
+
+- I learned about putting input as key's and value's inside an empty dictionary (SEE 7_10)
+
+- Lastly i created my own custom exercise, i took the 7_9 and modified it to ask user
+  input and store it inside an empty list, then transfer to another list.
+  i learned how to add user input to a list (append) and also remove from a list
+  (remove deletes a specific value, pop deletes by position/index) (SEE 7_11)
+  ADDITION: my 7_11 also uses "while 'pastrami' in sandwich_orders:" to delete ALL
+  pastrami entries - a while loop is perfect here because it re-checks the condition
+  every time until no pastrami is left
+
+
+Summary (corrected):
+
+While loops run AS LONG AS their condition is True. They are best when:
+- you don't know in advance how many repetitions you need (e.g. unknown amount of user input)
+- you work with lists that shrink/grow (moving items between lists, removing values)
+- you need exit conditions controlled from inside (flags, break, quit commands)
+A for loop is better when you know exactly WHAT you iterate over (a finished list,
+range of numbers, dictionary items).

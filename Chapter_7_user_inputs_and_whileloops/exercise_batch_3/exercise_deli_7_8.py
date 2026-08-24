@@ -7,9 +7,8 @@
 sandwich_orders = ["Subway", "Grilled Cheese", "Tuna"]
 finished_sandwiches =[]
 
-for sandwich in sandwich_orders:
-    print(f"\nYour {sandwich} sandwich has been made")
-    
+while sandwich_orders:
+    sandwich = sandwich_orders.pop()
     finished_sandwiches.append(sandwich)
 
 print("\nThese sandwiches were made:")

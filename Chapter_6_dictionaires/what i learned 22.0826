@@ -1,0 +1,12 @@
+i started chapter 6 batch 2
+
+- i learned how to put dictionairis inside lists and then access information from those dictionairis (SEE 6_7)
+we can access key's with putting the key name inside [] with the loop variable besides: person[Firstname]
+
+- we can use the same logic and assign variables for the key's (SEE 6_8)
+
+- I aslo learned to put lists inside dictionairis as value's (SEE 6_9)
+remmeber in for loop to access both key's and value's you have to use .items() methode
+
+- I also learned to put dictionairis inside dictionairie (SEE 6_11)
+we also use teh .items() methode.
