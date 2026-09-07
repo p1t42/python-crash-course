@@ -15,10 +15,10 @@ class users:
         
     def describe_user(self):
         """ """
-        print(f"This is user {self.first_name.title()} {self.last_name.title()}, he is located in {self.location} and works in {self.work_field}")
+        print(f"\nThis is user {self.first_name.title()} {self.last_name.title()}, who is located in {self.location} and works in {self.work_field}")
     
     def greet_user(self):
-        print(f"Hello {self.first_name.title()} {self.last_name.title()}")
+        print(f"\nHello {self.first_name.title()} {self.last_name.title()}")
         
 user = users("peter", "fedotovskii", "new york", "python developer")
 
