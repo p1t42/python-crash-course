@@ -61,3 +61,4 @@ new_admin = Admin("Peter", "fedotovskii", "New York", "Python and Web Developmen
 
 new_admin.greet_user()
 new_admin.privileges.show_privileges()
+
