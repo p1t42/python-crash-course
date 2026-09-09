@@ -4,7 +4,7 @@
 
 from user import User as us
 from admin import Admin as ad
-from privileges import Privileges
+
 
 first_user = us("Peter", "fedotovskii", "New York", "Python and Web Development")
 second_user = us("John", "Doe", "London", "Data Science")
@@ -16,7 +16,7 @@ admin.greet_user()
 
 first_user.show_login_attempts()
 
-admin.privileges.show_privileges()
+admin.show_privileges()
 
 admin.increment_login_attempts()
 admin.increment_login_attempts()
