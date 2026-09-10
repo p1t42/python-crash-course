@@ -1,0 +1,6 @@
+In Python you can use variables to store values of many types, like strings, integers, and lists.
+In Python you can use loops to repeat actions over a sequence of items.
+In Python you can define functions to reuse blocks of code easily.
+In Python you can work with files, reading from and writing to them.
+In Python you can handle exceptions so your program keeps running when errors occur.
+In Python you can use classes to organize data and behavior together.
