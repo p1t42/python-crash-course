@@ -1,0 +1,16 @@
+# 10-9. Silent Cats and Dogs: Modify your except block in Exercise 10-8 to fail silently if either file is missing.
+
+from pathlib import Path
+
+filenames = ["Chapter_10_files_and_exeptions/txt_files/cats.txt", "Chapter_10_files_and_exeptions/txt_files/animals.txt"]
+
+for filename in filenames:
+        path = Path(filename)
+
+        try:
+            contents = path.read_text()
+        except FileNotFoundError:
+            print("This File doesn't exist")
+        else:
+            print(contents)
+    
